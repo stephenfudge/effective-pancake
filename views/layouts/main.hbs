@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <title>TECH BLOG</title>
+</head>
+
+<body>
+    <header>
+           <h1 class="has-text-black px-4 py-4 has-text-weight-bold">TECH BLOG C14</h1>
+          <nav class="navbar mt-2">
+            {{#if loggedIn}}
+            <a href="/" class="navbar-item is-hoverable">Homepage</a>
+            <a href="/dashboard" class="navbar-item is-hoverable">Dashboard</a>
+            <a href="/dashboard/create" class="navbar-item is-hoverable">Create Post</a>
+            <a href="/" class="navbar-item is-hoverable">Logout</a>
+
+            {{else}}
+            <a href="/" class="navbar-item is-hoverable">Homepage</a>
+            <a href="/dashboard" class="navbar-item is-hoverable">Dashboard</a>
+            <a href="/login" class="navbar-item is-hoverable">Login</a>
+        </nav>
+      </header>
+
+      {{{ body }}}
+</body>
+
+</html>
+
