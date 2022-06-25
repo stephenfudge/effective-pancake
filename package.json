@@ -1,0 +1,29 @@
+{
+  "name": "effective-pancake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenfudge/effective-pancake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenfudge/effective-pancake/issues"
+  },
+  "homepage": "https://github.com/stephenfudge/effective-pancake#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^5.21.13"
+  }
+}
